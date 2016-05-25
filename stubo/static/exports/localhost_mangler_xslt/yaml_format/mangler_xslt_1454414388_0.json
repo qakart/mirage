@@ -1,0 +1,19 @@
+{
+   "priority": 1, 
+   "args": {
+      "priority": "1", 
+      "ext_module": "mangler"
+   }, 
+   "request": {
+      "bodyPatterns": {
+         "contains": [
+            "<request>\n<a>a</a>\n<trans_id>1234</trans_id>\n<b>b</b>\n<user uuid=\"xxx\">joe</user>\n<dt>2013-11-25</dt>\n</request>"
+         ]
+      }, 
+      "method": "POST"
+   }, 
+   "response": {
+      "body": "<response>\n<a>a</a>\n<trans_id>1234</trans_id>\n<b>b</b>\n<user uuid=\"xxx\">joe</user>\n<dt>2013-11-25</dt>\n</response>", 
+      "status": 200
+   }
+}

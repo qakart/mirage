@@ -1,0 +1,5 @@
+delete/stubs?scenario=rest
+begin/session?scenario=rest&session=rest_1454414421&mode=record
+# Stub skipped since no matchers were found. Consider using .yaml format for additional capabilities
+# Stub skipped since no matchers were found. Consider using .yaml format for additional capabilities
+end/session?session=rest_1454414421

@@ -1,0 +1,26 @@
+{
+   "priority": 2, 
+   "args": {
+      "foo": "bar"
+   }, 
+   "request": {
+      "bodyPatterns": {
+         "jsonpath": [
+            "cmd.x"
+         ]
+      }, 
+      "method": "GET", 
+      "headers": {
+         "X-Custom-Header": "1234", 
+         "Content-Type": "application/json"
+      }
+   }, 
+   "response": {
+      "status": 200, 
+      "body": "{\"version\": \"1.2.3\", \"data\": {\"status\": \"all ok 2\"}}", 
+      "headers": {
+         "X-Custom-Header": "1234", 
+         "Content-Type": "application/json"
+      }
+   }
+}

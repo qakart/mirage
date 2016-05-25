@@ -1,0 +1,4 @@
+delete/stubs?scenario=mangler_xslt
+begin/session?scenario=mangler_xslt&session=mangler_xslt_1454414388&mode=record
+put/stub?priority=1&session=mangler_xslt_1454414388&ext_module=mangler,mangler_xslt_1454414388_0_0.textMatcher,mangler_xslt_1454414388_0.response
+end/session?session=mangler_xslt_1454414388

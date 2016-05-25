@@ -1,0 +1,31 @@
+# use the session_id url arg from exec/cmds if supplied otherwise the one set from the get/export
+playback:
+  requests:
+  - file: multi_play_1454414390_0.request
+    response: multi_play_1454414390_0.stubo_response
+    vars:
+      priority: '1'
+      tracking_level: full
+  - file: multi_play_1454414390_1.request
+    response: multi_play_1454414390_1.stubo_response
+    vars:
+      tracking_level: full
+  - file: multi_play_1454414390_2.request
+    response: multi_play_1454414390_2.stubo_response
+    vars:
+      tracking_level: full
+  - file: multi_play_1454414390_3.request
+    response: multi_play_1454414390_3.stubo_response
+    vars:
+      tracking_level: full
+  - file: multi_play_1454414390_4.request
+    response: multi_play_1454414390_4.stubo_response
+    vars:
+      tracking_level: full
+  scenario: multi_play
+  session: multi_play_1454414390
+recording:
+  scenario: multi_play
+  session: multi_play_1454414390
+  stubs:
+  - file: multi_play_1454414390_0.json

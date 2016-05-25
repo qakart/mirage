@@ -1,0 +1,14 @@
+# use the session_id url arg from exec/cmds if supplied otherwise the one set from the get/export
+playback:
+  requests:
+  - file: first_1454414389_0.request
+    response: first_1454414389_0.stubo_response
+    vars:
+      priority: '1'
+  scenario: first
+  session: first_1454414389
+recording:
+  scenario: first
+  session: first_1454414389
+  stubs:
+  - file: first_1454414389_0.json
