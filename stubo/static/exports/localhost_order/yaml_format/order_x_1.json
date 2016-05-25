@@ -1,0 +1,18 @@
+{
+   "priority": 2, 
+   "args": {
+      "priority": "2"
+   }, 
+   "request": {
+      "bodyPatterns": {
+         "contains": [
+            "1"
+         ]
+      }, 
+      "method": "POST"
+   }, 
+   "response": {
+      "body": "1", 
+      "status": 200
+   }
+}

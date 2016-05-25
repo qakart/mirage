@@ -1,0 +1,4 @@
+delete/stubs?scenario=scenario_stub_multi_test_x
+begin/session?scenario=scenario_stub_multi_test_x&session=scenario_stub_multi_test_x_1454414378&mode=record
+put/stub?session=scenario_stub_multi_test_x_1454414378,text=a_dummy_matcher,text=a_dummy_response
+end/session?session=scenario_stub_multi_test_x_1454414378

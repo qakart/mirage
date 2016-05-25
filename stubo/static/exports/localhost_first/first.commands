@@ -1,0 +1,7 @@
+delete/stubs?scenario=first
+begin/session?scenario=first&session=first_1454414389&mode=record
+put/stub?priority=1&session=first_1454414389,first_1454414389_0_0.textMatcher,first_1454414389_0.response
+end/session?session=first_1454414389
+begin/session?scenario=first&session=first_1454414389&mode=playback
+get/response?priority=1&session=first_1454414389,first_1454414389_0.request
+end/session?session=first_1454414389

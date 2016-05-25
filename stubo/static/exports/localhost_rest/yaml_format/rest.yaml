@@ -1,0 +1,7 @@
+# use the session_id url arg from exec/cmds if supplied otherwise the one set from the get/export
+recording:
+  scenario: rest
+  session: rest_1454414421
+  stubs:
+  - file: rest_1454414421_0.json
+  - file: rest_1454414421_1.json

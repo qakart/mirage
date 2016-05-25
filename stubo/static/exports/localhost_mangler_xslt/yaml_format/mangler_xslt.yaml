@@ -1,0 +1,6 @@
+# use the session_id url arg from exec/cmds if supplied otherwise the one set from the get/export
+recording:
+  scenario: mangler_xslt
+  session: mangler_xslt_1454414388
+  stubs:
+  - file: mangler_xslt_1454414388_0.json

@@ -1,0 +1,19 @@
+{
+   "priority": 1, 
+   "args": {
+      "priority": "1", 
+      "tracking_level": "full"
+   }, 
+   "request": {
+      "bodyPatterns": {
+         "contains": [
+            "get my stub\n"
+         ]
+      }, 
+      "method": "POST"
+   }, 
+   "response": {
+      "body": "Hello {{1+1}} World", 
+      "status": 200
+   }
+}

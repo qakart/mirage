@@ -1,0 +1,8 @@
+# use the session_id url arg from exec/cmds if supplied otherwise the one set from the get/export
+recording:
+  scenario: order
+  session: order_x
+  stubs:
+  - file: order_x_0.json
+  - file: order_x_1.json
+  - file: order_x_2.json

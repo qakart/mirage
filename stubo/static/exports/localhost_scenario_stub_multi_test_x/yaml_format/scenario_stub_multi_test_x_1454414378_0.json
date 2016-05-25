@@ -1,0 +1,14 @@
+{
+   "request": {
+      "bodyPatterns": {
+         "contains": [
+            "dummy matcher"
+         ]
+      }, 
+      "method": "POST"
+   }, 
+   "response": {
+      "body": "dummy response", 
+      "status": 200
+   }
+}

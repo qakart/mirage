@@ -1,0 +1,5 @@
+# use the session_id url arg from exec/cmds if supplied otherwise the one set from the get/export
+recording:
+  scenario: scenario_stub_multi_test_x
+  session: scenario_stub_multi_test_x_1454414378
+  stubs: []

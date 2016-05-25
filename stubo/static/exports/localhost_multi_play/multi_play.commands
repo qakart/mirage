@@ -1,0 +1,11 @@
+delete/stubs?scenario=multi_play
+begin/session?scenario=multi_play&session=multi_play_1454414390&mode=record
+put/stub?priority=1&session=multi_play_1454414390&tracking_level=full,multi_play_1454414390_0_0.textMatcher,multi_play_1454414390_0.response
+end/session?session=multi_play_1454414390
+begin/session?scenario=multi_play&session=multi_play_1454414390&mode=playback
+get/response?priority=1&session=multi_play_1454414390&tracking_level=full,multi_play_1454414390_0.request
+get/response?session=multi_play_1454414390&tracking_level=full,multi_play_1454414390_1.request
+get/response?session=multi_play_1454414390&tracking_level=full,multi_play_1454414390_2.request
+get/response?session=multi_play_1454414390&tracking_level=full,multi_play_1454414390_3.request
+get/response?session=multi_play_1454414390&tracking_level=full,multi_play_1454414390_4.request
+end/session?session=multi_play_1454414390
